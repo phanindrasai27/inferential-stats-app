@@ -3,7 +3,6 @@ import pandas as pd
 from scipy.stats import ttest_ind, f_oneway, chi2_contingency
 
 # Load CSV data into a pandas DataFrame
-@st.cache_data
 def load_data(file_path):
     return pd.read_csv(file_path)
 
