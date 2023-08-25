@@ -1,4 +1,4 @@
---upgrade pip
-streamlit
-pandas
-scipy.stats
+pip==23.2.1
+pandas==1.3.3
+scipy==1.7.1
+streamlit==0.89.0
